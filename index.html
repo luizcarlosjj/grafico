@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+  <title>Apresentation</title>
+</head>
+
+<body>
+  <div class="container" >
+    <div class="home">
+      <h1 id="welcome">Olá Professor Maycon! &#x270B</h1>
+      <h2 id="description"> Me chamo Luiz Carlos,<br> &#x1F4BB Sou um web developer aluno do 3° ano F</h2>
+      <div id="details">
+        <p>Site dedicado á apresentar de forma nunca vista o nosso trabalho sobre: </p>
+      </div>
+      
+      <article class="content">
+        <h1>Gráfico Pictograma &#x1F4C8</h1>
+        <p>Os pictogramas são gráficos que usam ícones e imagens para representar dados.</p>
+        <h2>Nossos Gráficos:</h2>
+
+        <div class="slider">
+
+          <div class="graficos">
+            <!--Radio buttons-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <!--fim Radio buttons-->
+  
+            <!--Slide Images-->
+            <div class="slide first">
+              <img src="src/regiao.png" alt="imagem 1">
+            </div>
+            <div class="slide"> 
+              <img src="src/pesq-5.png" alt="imagem 2">
+            </div> 
+            <div class="slide">
+              <img src="src/pesq-6.png" alt="imagem 3">
+            </div>
+            <!--Fim Slide Images-->
+  
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+            </div>
+  
+          </div>
+  
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
+          
+        </div>
+
+        <h2 id="title-quest">Quando devo usar pictogramas?</h2>
+        <p>Os pictogramas podem ser úteis ao visualizar dados em infográficos, relatórios, apresentações e até currículos! Você pode usar um pictograma sempre que quiser tornar os dados simples visualmente mais interessantes, mais memoráveis ou envolventes.</p>
+      </article>
+
+    </div>
+    <br>
+  </div>
+
+  <div class="group">
+    <div class="time">
+      <script>
+        var agora = new Date()
+        var agora2 = new Date()
+        var hora = agora.getHours()
+        var min = agora2.getMinutes()
+        document.writeln(`Obrigado pela atenção! agora são exatas: ${hora}hrs${min}m`)
+        </script>
+    </div>
+    <footer>create by <a href="https://www.instagram.com/luiz.jb62/">@luiz.jb062</a> </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
